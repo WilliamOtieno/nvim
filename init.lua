@@ -366,7 +366,7 @@ vim.keymap.set('n', '<leader>m', vim.diagnostic.open_float, { desc = 'Open float
 vim.keymap.set('n', '<leader>l', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
 
 -- Neotree keymap
-vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { desc = 'Toggle File Tree' })
+vim.keymap.set('n', '<leader>e', ':Neotree toggle<cr>', { desc = 'Toggle File Tree' })
 
 vim.keymap.set('n', '<leader>tf', ':ToggleTerm direction=float<cr>', { desc = 'Toggle floating terminal' })
 vim.keymap.set('n', '<leader>tv', ':ToggleTerm direction=tab<cr>', { desc = 'Toggle vertical terminal' })
