@@ -289,6 +289,10 @@ require('lazy').setup({
   },
 
   { 'wakatime/vim-wakatime', lazy = false },
+  
+  {
+    'github/copilot.vim'
+  },
 
   {
     'linux-cultist/venv-selector.nvim',
