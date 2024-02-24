@@ -94,7 +94,19 @@ require('lazy').setup({
       'folke/neodev.nvim',
     },
   },
-
+  {
+    'nvimdev/dashboard-nvim',
+    event = 'VimEnter',
+    config = function()
+      require('dashboard').setup {
+        -- config
+        theme = "hyper"
+      }
+    end,
+    dependencies = {
+      'nvim-tree/nvim-web-devicons'
+    }
+  },
   {
     -- Autocompletion
     'hrsh7th/nvim-cmp',
