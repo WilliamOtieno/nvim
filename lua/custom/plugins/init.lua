@@ -4,6 +4,7 @@
 -- See the kickstart.nvim README for more information
 return {
 	require("custom.plugins.autosave"),
+	require("custom.plugins.go"),
 	require("custom.plugins.venv-selector"),
 	require("custom.plugins.wakatime"),
 }
