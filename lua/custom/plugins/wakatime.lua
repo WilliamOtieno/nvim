@@ -1,3 +1,3 @@
 return {
-	{ "wakatime/vim-wakatime", lazy = true },
+	{ "wakatime/vim-wakatime", lazy = false },
 }
