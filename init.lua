@@ -983,6 +983,7 @@ require("lazy").setup({
 				"query",
 				"vim",
 				"vimdoc",
+				"zig",
 			},
 			-- Autoinstall languages that are not installed
 			auto_install = true,

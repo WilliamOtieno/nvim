@@ -5,6 +5,7 @@
 return {
 	require("custom.plugins.autosave"),
 	require("custom.plugins.go"),
+	require("custom.plugins.zig-lamp"),
 	require("custom.plugins.venv-selector"),
 	require("custom.plugins.wakatime"),
 }
